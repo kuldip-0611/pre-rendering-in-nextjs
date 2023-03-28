@@ -8,6 +8,7 @@ const News= ({news})=>{
                 return(
                     <div key={Individual_news.id}>
                         <h2>{Individual_news.id} {Individual_news.name} {Individual_news.category}</h2>
+                        <hr />
                         
                     </div>
             )})
