@@ -1,3 +1,4 @@
+import Link from 'next/link'
 const postList = ({ posts }) => {
     return(
         <>
@@ -5,8 +6,8 @@ const postList = ({ posts }) => {
             {
                 posts.map((post) => (
                     <div key={post.id}>
-
-                        <Link href={`/posts/${post.id}`} passHref><h2>{post.id} {post.title}</h2></Link>
+                        {console.log(post.id)}
+                        <Link href={`/posts/${post.id}`} ><h2>{post.id} {post.title}</h2></Link>
                     </div>
                 ))
             }
@@ -24,7 +25,7 @@ export async function getStaticProps() {
 
     return {
         props: {
-            posts: data.slice(0, 3)
+            posts: data,
         }
     }
 }
