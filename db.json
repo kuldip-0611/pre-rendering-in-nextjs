@@ -1,4 +1,10 @@
 {
+  "dashboard": [{
+    "posts":5,
+    "comments": 10,
+    "likes": 10,
+    "views": 10
+  }],
   "news": [
     {
       "id": 1,
@@ -12,9 +18,9 @@
       "category": "Politics"
     },
     {
-        "id": 3,
-        "name": "News3",
-        "category": "Vollyball"
+      "id": 3,
+      "name": "News3",
+      "category": "Vollyball"
     }
   ],
 
