@@ -1,18 +1,41 @@
 {
-    "products":[{
-        "id": 1,
-        "name": "Product1" ,
-        "price":3000,
-        "description": "Product1"
-    },{
-        "id": 2,
-        "name": "Product2" ,
-        "price":4500,
-        "description": "Product2"
-    },{
+  "news": [
+    {
+      "id": 1,
+      "name": "News1",
+      "category": "cricket"
+    },
+
+    {
+      "id": 2,
+      "name": "News2",
+      "category": "Politics"
+    },
+    {
         "id": 3,
-        "name": "Product3" ,
-        "price":3000,
-        "description": "Product3"
-    }]
+        "name": "News3",
+        "category": "Vollyball"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Product1",
+      "price": 3600,
+      "description": "Product1"
+    },
+    {
+      "id": 2,
+      "name": "Product2",
+      "price": 4500,
+      "description": "Product2"
+    },
+    {
+      "id": 3,
+      "name": "Product3",
+      "price": 3000,
+      "description": "Product3"
+    }
+  ]
 }
