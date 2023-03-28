@@ -20,7 +20,9 @@ const category_news = ({ articals }) => {
 export default category_news;
 
 export async function getServerSideProps(context) {
-    const { query } = context
+    const { query , req,res} = context
+    console.log(req.headers.cookie);
+    res.setHeader('Set-Cookie', ['name=kuldip'])
     const { category } = query
     console.log(category);
     const response = await fetch(`http://localhost:4000/news?category=${category}`);
